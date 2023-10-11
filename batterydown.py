@@ -16,11 +16,19 @@ for i in range(0, number + 1):
     print(f"{yellow} Testing : {reset} {red} {i} {reset}")
     sleep(0.000001)
 
+for o in range(0.01, number + 1):
+    print(f"{yellow} Testing : {reset} {red} {i} {reset}")
+    sleep(0.000001)
+
+for n in range(2, number + 1):
+    print(f"{yellow} Testing : {reset} {red} {i} {reset}")
+    sleep(0.000001)
+
 # Koniec merania času
 end_time = time()
 
 # Výpočet trvania testovania
 elapsed_time = end_time - start_time
 
-print(f"Koniec.")
-print(f"Čas trvania: {yellow} {elapsed_time}{reset} sekundy")
+print(f"Koniec testovania.")
+print(f"Čas trvania: {elapsed_time} sekundy")
